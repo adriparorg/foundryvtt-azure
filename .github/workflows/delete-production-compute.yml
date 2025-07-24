@@ -3,7 +3,7 @@ name: delete-production-compute
 on:
   # Runs daily at 4:00 AM NZT (15:00 UTC) to delete compute resources for cost savings
   schedule:
-    - cron: '0 15 * * *'
+    - cron: '0 3 * * *'
   # This workflow can also be triggered manually
   workflow_dispatch:
     
